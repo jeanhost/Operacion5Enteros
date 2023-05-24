@@ -1,7 +1,7 @@
 import unittest
 from src.logica.OperacionesEnteros import OperacionesEnteros
 
-class PruebaOperacionesEnteros(unittest.TestCase):
+class PruebaOperacionesEnteros(unittest.TestCase): hola
     def setUp(self):
         self.operacion = OperacionesEnteros([])
 
@@ -33,3 +33,4 @@ class PruebaOperacionesEnteros(unittest.TestCase):
 
         # Assert
         self.assertEqual(resultadoEsperado, resultadoActual)
+        
